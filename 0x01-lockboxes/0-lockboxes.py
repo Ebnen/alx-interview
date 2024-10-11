@@ -14,4 +14,4 @@ def canUnlockAll(boxes):
             if new_key < n and not unlocked[new_key]:
                 unlocked[new_key] = True
                 keys.append(new_key)
-                return all(unlocked)
+    return all(unlocked)
